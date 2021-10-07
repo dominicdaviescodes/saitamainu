@@ -1,0 +1,42 @@
+body {
+	background: url('../images/saitama_logo.jpg');
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h1{
+	font-size: 80px;
+	text-transform: uppercase;
+}
+
+h2 {
+	background: #DF6083;
+	color: #000;
+	font-size: 30px;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+a {
+	color: #DF6083;
+	text-decoration: none;
+}
+
+.container {
+	background: #000;
+	max-width: 600px;
+	color: #fff;
+	padding: 15px;
+
+}
+
+@media screen and (max-width: 600px) {
+	body {
+			background-color: red;
+	}
+}
